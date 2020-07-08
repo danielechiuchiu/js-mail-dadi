@@ -6,11 +6,10 @@ for (var i = 0; i < emailsistema.length; i++) {
 if (emailsistema[i] == email) {
   trovata= true;
 }
-
+}
 
 if (trovata == true) {
 document.getElementById("esercizio").innerHTML = "Accesso consentito";
 } else {
   document.getElementById('esercizio').innerHTML = "Non hai le autorizzazioni per accedere";
-}
 }
