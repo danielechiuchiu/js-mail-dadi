@@ -1,0 +1,41 @@
+.contenitore{
+  width: 400px;
+  height: 200px;
+  border: solid 1px black;
+  margin-top: 25%;
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+#dadoutente{
+  width: 200px;
+  height: 99px;
+  background-color: pink;
+  float:left;
+  display: flex;
+  border-bottom: solid 1px black;
+  align-items: center;
+  justify-content: center;
+}
+
+#dadocomputer{
+  width: 199px;
+  height: 99px;
+  background-color: pink;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#esercizio{
+  background-color:lightblue;
+  height: 100px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

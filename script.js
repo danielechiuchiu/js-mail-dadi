@@ -17,12 +17,18 @@
 var dadoutente = Math.floor(Math.random()*6)+1
 console.log(dadoutente)
 
+document.getElementById("dadoutente").innerHTML= 'Dado Utente: ' + dadoutente;
+
 var dadocomputer = Math.floor(Math.random()*6)+1
 console.log(dadocomputer)
-
+document.getElementById("dadocomputer").innerHTML= 'Dado Computer: ' + dadocomputer;
 
 if (dadoutente > dadocomputer) {
-  var risultato = 'ha vinto l\' utente'
+  var risultato = 'Ha vinto l\' utente'
 } else
-  var risultato = 'ha vinto il computer'
+  var risultato = 'Ha vinto il computer'
+
+if (dadoutente == dadocomputer) {
+  var risultato = 'Ha vinto Daniele :)'
+}
 document.getElementById("esercizio").innerHTML= risultato;
